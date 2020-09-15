@@ -1,0 +1,153 @@
+.derecha{
+    position: relative;
+    float: right;
+    top: 25;
+}
+.imglogo
+ {
+   height: 120px;
+   float: left;
+   margin: 10px 0px 10px 100px; 
+}
+
+div.hero
+{
+    position: relative;
+    background-image: url(../imagenes/img2.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+   filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1.1);
+    text-align: center;
+    width: 95.2%;
+    
+  
+}
+
+h1
+{
+    padding-left: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+h1 span{
+    color: white;
+   
+    
+}
+p.titulo
+{
+    padding-left: 500px;
+    padding-top: 400px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    
+
+    
+    
+}
+
+.navbar{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+   
+   float: right;
+   width: 100%;
+}
+
+
+
+.collapse{
+    float: right;
+    margin-top: 40px;
+   
+    
+    
+    
+}
+.collapse a
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    transition: all .6s ease;
+   
+    
+}
+ul.nav a:hover
+{
+    background-color: #fe4918;
+    
+}
+li.dropdown a:hover
+{
+    background-color: #fe4918;
+}
+
+.dropdown-menu   
+{
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+.dropdown-menu li a
+{
+    color: white;
+}
+
+
+/**footer**/
+footer{
+    background-color: #353535;
+    position: absolute;
+}
+footer .contenedor > div
+{
+    color: white;
+    padding: 0px 20px;
+    font-size: 12px;
+   
+}
+@media only screen and (min-width: 768px){
+    footer .contenedor > div{
+        width: 33.3%;
+        float: left;
+    }
+}
+footer h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+footer h3 span{
+    color: #fe4918;
+}
+footer .ultimos-tweets li{
+    margin-bottom: 10px;
+}
+footer nav.redes-sociales{
+    text-align: left;
+}
+p.copyright
+{
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+nav.redes-sociales{
+    text-align: center;
+    
+}
+nav.redes-sociales a{
+    color: white;
+    font-size: 2em;
+    margin-right: 20px;
+}
+nav.redes-sociales a: last-child {
+    margin-right: 0;
+}
+
